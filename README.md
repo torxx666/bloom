@@ -2,6 +2,15 @@
 2 versions Bloom filter based on https://en.wikipedia.org/wiki/Bloom_filter 
 
 
+## Installation
+```shell
+git clone https://github.com/torxx666/bloom.git
+cd bloom
+python -m venv venv
+source ./venv/bin/activate
+
+```
+
 ## Run
 You have 2 versions : 
 - python check_version_1.py

@@ -1,7 +1,4 @@
-import bitarray
-from bitarray.util import ba2int
 from hashlib import blake2b
-import pickle
 import struct
 import sys
 

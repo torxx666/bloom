@@ -3,7 +3,7 @@ from  bloom2 import Bloom2
 
 
 # f = open("sample-2mb-text.txt", "r") #sample-2mb-text.txt
-f = open("emerson_essays.txt", "r")
+f = open("data/emerson_essays.txt", "r")
 sample = f.read()
 
 

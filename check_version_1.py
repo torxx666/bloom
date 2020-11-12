@@ -2,8 +2,8 @@ import datetime
 from  bloom import Bloom
 
 
-# f = open("sample-2mb-text.txt", "r")
-f = open("emerson_essays.txt", "r")
+
+f = open("data/emerson_essays.txt", "r")
 sample = f.read()
 
 

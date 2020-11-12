@@ -13,7 +13,7 @@ class TestBloom:
 
 
     def test_2mb_file(self):
-        f = open("sample-2mb-text.txt", "r")
+        f = open("data/sample-2mb-text.txt", "r")
         sample = f.read()
 
         lines = sample.splitlines()
@@ -28,7 +28,7 @@ class TestBloom:
         assert mb.Len()==2850
 
     def test_emerson(self):
-        f = open("emerson_essays.txt", "r")
+        f = open("data/emerson_essays.txt", "r")
         sample = f.read()
 
         lines = sample.splitlines()
